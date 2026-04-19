@@ -31,39 +31,39 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Standfast Partners — navy ink + warm gold per brand strategy v2 */
+    /* Standfast Partners — logo navy + bright warm gold */
     --background: 40 33% 97%;        /* mist / cream */
-    --foreground: 222 55% 14%;        /* navy ink */
+    --foreground: 222 60% 14%;        /* navy ink */
 
     --card: 0 0% 100%;
-    --card-foreground: 222 55% 14%;
+    --card-foreground: 222 60% 14%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222 55% 14%;
+    --popover-foreground: 222 60% 14%;
 
-    /* Primary navy from logo, slightly deeper */
-    --primary: 218 55% 16%;
+    /* Logo navy: ~#1A2A52 */
+    --primary: 224 52% 21%;
     --primary-foreground: 40 33% 97%;
 
     --secondary: 40 25% 94%;
-    --secondary-foreground: 222 55% 14%;
+    --secondary-foreground: 224 52% 21%;
 
     --muted: 40 20% 93%;
     --muted-foreground: 220 14% 38%;
 
-    /* Warm gold #B8872E */
-    --accent: 39 62% 45%;
-    --accent-foreground: 222 55% 14%;
-    --gold: 39 62% 45%;
-    --gold-foreground: 222 55% 14%;
-    --gold-soft: 42 60% 88%;
+    /* Brighter, lighter warm gold */
+    --accent: 42 78% 58%;
+    --accent-foreground: 224 52% 21%;
+    --gold: 42 78% 58%;
+    --gold-foreground: 224 52% 21%;
+    --gold-soft: 42 70% 88%;
 
     --destructive: 0 70% 45%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 220 15% 88%;
     --input: 220 15% 88%;
-    --ring: 39 62% 45%;
+    --ring: 42 78% 58%;
 
     --radius: 0.5rem;
 
