@@ -29,7 +29,7 @@ export const About = () => {
           <span className="text-[10px] uppercase tracking-[0.22em] text-gold mb-4 block">
             Who we are
           </span>
-          <h2 className="font-display text-5xl md:text-6xl text-primary leading-[1.05]">
+          <h2 className="font-display text-[2.25rem] sm:text-5xl md:text-6xl text-primary leading-[1.05]">
             A solutions partner that <em className="font-serif-italic text-gold">stays</em> until it's done.
           </h2>
           <div className="w-12 h-0.5 bg-gold my-6" />

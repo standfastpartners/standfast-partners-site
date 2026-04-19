@@ -42,7 +42,7 @@ export const Services = () => {
             <span className="text-[10px] uppercase tracking-[0.22em] text-gold mb-4 block">
               What we do
             </span>
-            <h2 className="font-display text-5xl md:text-6xl text-primary-foreground leading-[1.05]">
+            <h2 className="font-display text-[2.25rem] sm:text-[2.25rem] sm:text-5xl md:text-6xl text-primary-foreground leading-[1.05]">
               Four ways <em className="font-serif-italic text-gold">we deliver.</em>
             </h2>
           </div>

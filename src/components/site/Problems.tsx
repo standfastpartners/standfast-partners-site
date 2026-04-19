@@ -30,7 +30,7 @@ export const Problems = () => {
             <span className="text-[10px] uppercase tracking-[0.22em] text-gold mb-4 block">
               What we solve
             </span>
-            <h2 className="font-display text-5xl md:text-6xl text-primary leading-[1.05]">
+            <h2 className="font-display text-[2.25rem] sm:text-5xl md:text-6xl text-primary leading-[1.05]">
               The four reasons transformation <em className="font-serif-italic text-gold">stalls.</em>
             </h2>
           </div>

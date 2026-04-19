@@ -31,7 +31,7 @@ export const Insights = () => {
             <span className="text-[10px] uppercase tracking-[0.22em] text-gold mb-4 block">
               Thinking
             </span>
-            <h2 className="font-display text-5xl md:text-6xl text-primary-foreground leading-[1.05]">
+            <h2 className="font-display text-[2.25rem] sm:text-[2.25rem] sm:text-5xl md:text-6xl text-primary-foreground leading-[1.05]">
               What we're <em className="font-serif-italic text-gold">watching.</em>
             </h2>
           </div>

@@ -33,7 +33,7 @@ export const Work = () => {
           Selected work
         </span>
         <div className="grid md:grid-cols-2 gap-8 md:gap-16 items-end mb-16">
-          <h2 className="font-display text-5xl md:text-6xl text-primary leading-[1.05]">
+          <h2 className="font-display text-[2.25rem] sm:text-5xl md:text-6xl text-primary leading-[1.05]">
             Results, <em className="font-serif-italic text-gold">not reports.</em>
           </h2>
           <p className="text-base leading-[1.8] text-muted-foreground max-w-md">

@@ -48,7 +48,7 @@ export const Contact = () => {
           <span className="text-[10px] uppercase tracking-[0.22em] text-gold mb-4 block">
             Get in touch
           </span>
-          <h2 className="font-display text-5xl md:text-6xl text-primary-foreground leading-[1.05] mb-8">
+          <h2 className="font-display text-[2.25rem] sm:text-[2.25rem] sm:text-5xl md:text-6xl text-primary-foreground leading-[1.05] mb-8">
             Let's talk about{" "}
             <em className="font-serif-italic text-gold">what matters.</em>
           </h2>
