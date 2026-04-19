@@ -10,10 +10,10 @@ const services = [
   },
   {
     num: "02",
-    name: "Consultancy & Advisory",
+    name: "Strategy & Architecture",
     lead: "Where clarity is built.",
-    desc: "We shape the roadmap and make the hard calls — on AI strategy, digital transformation, eCommerce architecture, and DTC positioning. Thinking that drives decisions, not fills slide decks. Senior advisors in the room for the big calls — always external, always honest.",
-    tags: ["AI strategy", "eCommerce", "DTC transformation", "Digital strategy"],
+    desc: "We shape the roadmap and make the hard calls — on AI strategy, digital transformation, eCommerce architecture, and DTC positioning. Thinking that drives decisions, not fills slide decks. Senior practitioners in the room for the big calls — always external, always honest, always building toward delivery.",
+    tags: ["AI strategy", "eCommerce", "DTC transformation", "Solution architecture"],
   },
   {
     num: "03",
@@ -47,9 +47,9 @@ export const Services = () => {
             </h2>
           </div>
           <p className="text-base leading-[1.8] text-primary-foreground/70 max-w-md">
-            Standfast is not a menu of services — it's a progression. From the first honest
-            conversation about AI to embedded, ongoing capability. Clients enter where they
-            need to. The commitment never changes.
+            Standfast is a solutions company, not a menu of services. From the first honest
+            conversation about AI to built, deployed, and embedded capability. Clients enter
+            where they need to. The commitment never changes: we deliver.
           </p>
         </div>
 

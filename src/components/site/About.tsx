@@ -26,13 +26,13 @@ export const About = () => {
             Who we are
           </span>
           <h2 className="font-display text-5xl md:text-6xl text-primary leading-[1.05]">
-            The partner that <em className="font-serif-italic text-gold">stays</em> until it's done.
+            A solutions partner that <em className="font-serif-italic text-gold">stays</em> until it's done.
           </h2>
           <div className="w-12 h-0.5 bg-gold my-6" />
           <p className="text-base leading-[1.85] text-muted-foreground max-w-md mb-6">
-            Standfast Partners is not a consultancy in the traditional sense. We don't arrive
-            with a methodology, produce a document, and hand it over. We are an external
-            partner — independent, senior, and deeply invested in the outcomes we take on.
+            Standfast Partners is a solutions company — not a consultancy. We don't arrive
+            with a methodology, produce a document, and hand it over. We build, deploy, and
+            own the outcome alongside you.
           </p>
           <p className="text-base leading-[1.85] text-muted-foreground max-w-md">
             We come from the commercial world. We've held the accountability our clients now

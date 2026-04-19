@@ -53,9 +53,9 @@ export const Contact = () => {
             <em className="font-serif-italic text-gold">what matters.</em>
           </h2>
           <p className="text-base leading-[1.8] text-primary-foreground/70 mb-12 max-w-md">
-            Tell us about your challenge. We'll tell you honestly whether we can help, and
-            what working with us would look like. No pitch. No pressure. Just a real
-            conversation.
+            Tell us what you need built or solved. We'll tell you honestly whether we're the
+            right partner, and what delivery would look like. No pitch. No pressure. Just a
+            real conversation.
           </p>
           <div className="flex flex-col gap-5">
             <Detail label="Email" value="hello@standfast.partners" />
@@ -96,10 +96,10 @@ export const Contact = () => {
               <Field label="What are you working on?" error={errors.area?.message} labelClass={labelClass}>
                 <select className={fieldClass} defaultValue="" {...register("area")}>
                   <option value="" disabled>
-                    Select a practice area
+                    Select a solution area
                   </option>
                   <option>AI Discovery</option>
-                  <option>Consultancy &amp; Advisory</option>
+                  <option>Strategy &amp; Architecture</option>
                   <option>AI Solutions &amp; Services</option>
                   <option>Support &amp; Training</option>
                   <option>Not sure yet — let's talk</option>
