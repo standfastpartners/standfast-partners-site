@@ -4,24 +4,28 @@ const services = [
   {
     num: "01",
     name: "AI Discovery",
+    lead: "Where it starts.",
     desc: "A sharp, honest picture of where AI can create real value in your specific business. Not a generic assessment — a commercial diagnosis built for action. We map the terrain: where you are, where the opportunity sits, what's realistic and what's noise.",
     tags: ["Opportunity mapping", "AI readiness", "Commercial diagnosis", "Prioritisation"],
   },
   {
     num: "02",
     name: "Consultancy & Advisory",
-    desc: "We shape the roadmap and make the hard calls — on AI strategy, digital transformation, eCommerce architecture, and DTC positioning. Thinking that drives decisions, not fills slide decks. We operate as senior advisors: in the room for the big calls, always external, always honest.",
+    lead: "Where clarity is built.",
+    desc: "We shape the roadmap and make the hard calls — on AI strategy, digital transformation, eCommerce architecture, and DTC positioning. Thinking that drives decisions, not fills slide decks. Senior advisors in the room for the big calls — always external, always honest.",
     tags: ["AI strategy", "eCommerce", "DTC transformation", "Digital strategy"],
   },
   {
     num: "03",
     name: "AI Solutions & Services",
-    desc: "We build and deploy. AI-powered solutions, specialist delivery teams, end-to-end programme ownership. We take accountability for outcomes — not just effort. We step in where internal teams cannot prioritise, own and deliver critical initiatives, and drive the work that matters most.",
+    lead: "Where it gets delivered.",
+    desc: "We build and deploy. AI-powered solutions, specialist delivery teams, end-to-end programme ownership. We take accountability for outcomes, not just effort — stepping in to own and deliver the initiatives that matter most.",
     tags: ["Agentic AI", "Outsourced execution", "AI implementation", "Programme delivery"],
   },
   {
     num: "04",
     name: "Support & Training",
+    lead: "What keeps it alive.",
     desc: "Transformation without capability transfer is dependency. We support your teams on an ongoing basis — building the knowledge, confidence, and internal skills to sustain and accelerate progress. The goal is always to make your business more capable, not more reliant on us.",
     tags: ["Ongoing support", "Team training", "AI literacy", "Capability building"],
   },
@@ -38,12 +42,12 @@ export const Services = () => {
             <span className="text-[10px] uppercase tracking-[0.22em] text-gold mb-4 block">
               What we do
             </span>
-            <h2 className="font-display text-5xl md:text-6xl text-primary-foreground leading-[0.95]">
-              Four ways <br /> we deliver.
+            <h2 className="font-display text-5xl md:text-6xl text-primary-foreground leading-[1.05]">
+              Four ways <em className="font-serif-italic text-gold">we deliver.</em>
             </h2>
           </div>
           <p className="text-base leading-[1.8] text-primary-foreground/70 max-w-md">
-            Each practice is distinct. Together, they take a business from the first honest
+            Standfast is not a menu of services — it's a progression. From the first honest
             conversation about AI to embedded, ongoing capability. Clients enter where they
             need to. The commitment never changes.
           </p>
@@ -60,33 +64,38 @@ export const Services = () => {
               >
                 <span
                   className={`font-display text-4xl md:text-5xl leading-none transition-colors ${
-                    isOpen ? "text-gold/40" : "text-primary-foreground/15 group-hover:text-gold/30"
+                    isOpen ? "text-gold/50" : "text-primary-foreground/15 group-hover:text-gold/30"
                   }`}
                 >
                   {s.num}
                 </span>
                 <div>
-                  <h3
-                    className={`font-display text-3xl md:text-5xl leading-none mb-3 transition-colors ${
-                      isOpen ? "text-gold" : "text-primary-foreground group-hover:text-gold/80"
-                    }`}
-                  >
-                    {s.name}
-                  </h3>
+                  <div className="flex flex-wrap items-baseline gap-3 mb-2">
+                    <h3
+                      className={`font-display text-3xl md:text-5xl leading-tight transition-colors ${
+                        isOpen ? "text-gold" : "text-primary-foreground group-hover:text-gold/80"
+                      }`}
+                    >
+                      {s.name}
+                    </h3>
+                    <span className="font-serif-italic text-primary-foreground/50 text-base md:text-lg">
+                      {s.lead}
+                    </span>
+                  </div>
                   <div
                     className={`grid transition-all duration-500 ${
                       isOpen ? "grid-rows-[1fr] opacity-100 mt-3" : "grid-rows-[0fr] opacity-0"
                     }`}
                   >
                     <div className="overflow-hidden">
-                      <p className="text-sm leading-[1.75] text-primary-foreground/60 max-w-xl">
+                      <p className="text-[15px] leading-[1.8] text-primary-foreground/65 max-w-xl">
                         {s.desc}
                       </p>
-                      <div className="flex flex-wrap gap-2 mt-4">
+                      <div className="flex flex-wrap gap-2 mt-5">
                         {s.tags.map((t) => (
                           <span
                             key={t}
-                            className="text-[10px] uppercase tracking-[0.14em] text-gold/80 border border-gold/25 px-2.5 py-1"
+                            className="text-[10px] uppercase tracking-[0.16em] text-gold/85 border border-gold/25 px-3 py-1.5"
                           >
                             {t}
                           </span>
@@ -96,7 +105,7 @@ export const Services = () => {
                   </div>
                 </div>
                 <span
-                  className={`text-2xl text-gold/50 transition-transform ${
+                  className={`text-2xl text-gold/50 transition-transform mt-2 ${
                     isOpen ? "rotate-45 text-gold" : ""
                   }`}
                 >
@@ -106,6 +115,11 @@ export const Services = () => {
             );
           })}
         </div>
+
+        <p className="text-[15px] text-primary-foreground/60 max-w-2xl mt-10 italic font-serif-italic">
+          What every stage shares: senior people, genuine accountability, and a partner
+          invested in the outcome — not the invoice.
+        </p>
       </div>
     </section>
   );

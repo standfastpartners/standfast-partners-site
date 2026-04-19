@@ -11,7 +11,7 @@ const cases = [
     num: "02",
     tag: "eCommerce · DTC",
     title: "DTC transformation for a heritage consumer brand",
-    desc: "Rebuilt the end-to-end digital commerce strategy — from platform selection to customer acquisition to post-purchase experience.",
+    desc: "Rebuilt the end-to-end digital commerce strategy — from platform selection to acquisition to post-purchase experience.",
     result: "2.8×",
     label: "Revenue growth in 18 months",
   },
@@ -33,8 +33,8 @@ export const Work = () => {
           Selected work
         </span>
         <div className="grid md:grid-cols-2 gap-8 md:gap-16 items-end mb-16">
-          <h2 className="font-display text-5xl md:text-6xl text-primary leading-[0.95]">
-            Results, <br /> not reports.
+          <h2 className="font-display text-5xl md:text-6xl text-primary leading-[1.05]">
+            Results, <em className="font-serif-italic text-gold">not reports.</em>
           </h2>
           <p className="text-base leading-[1.8] text-muted-foreground max-w-md">
             Every engagement is measured by one thing: meaningful, lasting progress for the
@@ -52,7 +52,7 @@ export const Work = () => {
                 className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity"
                 style={{
                   background:
-                    "linear-gradient(135deg, hsl(var(--gold) / 0.12) 0%, transparent 60%)",
+                    "linear-gradient(135deg, hsl(var(--gold) / 0.14) 0%, transparent 60%)",
                 }}
               />
               <span className="font-display text-7xl text-primary-foreground/10 absolute top-3 right-5 leading-none">
@@ -62,15 +62,15 @@ export const Work = () => {
                 <span className="text-[10px] uppercase tracking-[0.18em] text-gold block mb-6">
                   {c.tag}
                 </span>
-                <h3 className="font-display text-2xl md:text-3xl text-primary-foreground leading-[1.05] mb-4">
+                <h3 className="font-display text-2xl md:text-3xl text-primary-foreground leading-[1.15] mb-4">
                   {c.title}
                 </h3>
-                <p className="text-[13px] leading-[1.7] text-primary-foreground/60 mb-8">
+                <p className="text-[14px] leading-[1.75] text-primary-foreground/65 mb-8">
                   {c.desc}
                 </p>
                 <div className="border-t border-white/10 pt-5 flex items-baseline gap-3">
                   <span className="font-display text-3xl text-gold">{c.result}</span>
-                  <span className="text-xs text-primary-foreground/50 uppercase tracking-[0.1em]">
+                  <span className="text-xs text-primary-foreground/55 uppercase tracking-[0.12em]">
                     {c.label}
                   </span>
                 </div>
@@ -82,7 +82,7 @@ export const Work = () => {
         <div className="text-center mt-12">
           <a
             href="#contact"
-            className="inline-block text-xs uppercase tracking-[0.16em] text-primary border-b border-gold pb-1 hover:text-gold transition-colors"
+            className="inline-block text-xs uppercase tracking-[0.18em] text-primary border-b border-gold pb-1 hover:text-gold transition-colors"
           >
             Discuss your challenge →
           </a>

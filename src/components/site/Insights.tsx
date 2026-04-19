@@ -31,13 +31,13 @@ export const Insights = () => {
             <span className="text-[10px] uppercase tracking-[0.22em] text-gold mb-4 block">
               Thinking
             </span>
-            <h2 className="font-display text-5xl md:text-6xl text-primary-foreground leading-[0.95]">
-              What we're <br /> watching.
+            <h2 className="font-display text-5xl md:text-6xl text-primary-foreground leading-[1.05]">
+              What we're <em className="font-serif-italic text-gold">watching.</em>
             </h2>
           </div>
           <a
             href="#"
-            className="text-xs uppercase tracking-[0.16em] text-gold border-b border-gold/40 pb-1 hover:border-gold transition-colors self-start md:self-auto"
+            className="text-xs uppercase tracking-[0.18em] text-gold border-b border-gold/40 pb-1 hover:border-gold transition-colors self-start md:self-auto"
           >
             All articles →
           </a>
@@ -60,18 +60,18 @@ export const Insights = () => {
                 </span>
               </div>
               <h3
-                className={`font-serif-italic text-primary-foreground leading-[1.45] mb-4 ${
-                  a.featured ? "text-2xl" : "text-lg"
+                className={`font-serif-italic text-primary-foreground leading-[1.35] mb-4 ${
+                  a.featured ? "text-2xl md:text-3xl" : "text-xl"
                 }`}
               >
                 {a.title}
               </h3>
               {a.featured && (
-                <p className="text-[13px] leading-[1.7] text-primary-foreground/55 mb-2">
+                <p className="text-[14px] leading-[1.75] text-primary-foreground/60 mb-2">
                   {a.excerpt}
                 </p>
               )}
-              <span className="inline-block text-[11px] uppercase tracking-[0.14em] text-gold mt-6 border-b border-gold/30 pb-0.5">
+              <span className="inline-block text-[11px] uppercase tracking-[0.16em] text-gold mt-6 border-b border-gold/30 pb-0.5">
                 Read article
               </span>
             </article>
