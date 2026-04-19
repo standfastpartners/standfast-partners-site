@@ -48,9 +48,9 @@ export const Contact = () => {
           <span className="text-[10px] uppercase tracking-[0.22em] text-gold mb-4 block">
             Get in touch
           </span>
-          <h2 className="font-display text-5xl md:text-7xl text-primary-foreground leading-[0.9] mb-8">
-            Let's talk <br /> about <br />
-            <span className="text-gold">what matters.</span>
+          <h2 className="font-display text-5xl md:text-6xl text-primary-foreground leading-[1.05] mb-8">
+            Let's talk about{" "}
+            <em className="font-serif-italic text-gold">what matters.</em>
           </h2>
           <p className="text-base leading-[1.8] text-primary-foreground/70 mb-12 max-w-md">
             Tell us about your challenge. We'll tell you honestly whether we can help, and
