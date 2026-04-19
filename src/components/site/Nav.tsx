@@ -29,8 +29,9 @@ export const Nav = () => {
       >
         <a href="#home" className="flex items-center gap-3 text-primary-foreground">
           <img src={logo} alt="Standfast Partners" className="h-8 w-8" />
-          <span className="font-display text-xl tracking-wider">
-            Standfast<span className="text-gold">.</span>
+          <span className="font-display text-xl tracking-wider leading-none">
+            Standfast<span className="text-gold">.</span>{" "}
+            <span className="text-primary-foreground/70">Partners</span>
           </span>
         </a>
 
