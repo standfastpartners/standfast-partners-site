@@ -1,3 +1,6 @@
+import { useState } from "react";
+import { FiresideInvite } from "./FiresideInvite";
+
 const values = [
   {
     title: "External & Independent",
@@ -18,6 +21,7 @@ const values = [
 ];
 
 export const About = () => {
+  const [fireside, setFireside] = useState(false);
   return (
     <section id="about" className="bg-background py-24 md:py-32">
       <div className="max-w-[1200px] mx-auto px-6 md:px-12 grid md:grid-cols-2 gap-16 md:gap-24 items-start">
@@ -71,8 +75,26 @@ export const About = () => {
             biggest, or the oldest, or the best-resourced. They will be the ones that moved
             with clarity and conviction when it was still hard to do."
           </p>
+
+          <div className="mt-10 max-w-md border-t border-border pt-8">
+            <span className="text-[10px] uppercase tracking-[0.22em] text-gold mb-2 block">
+              Fireside · Invite only
+            </span>
+            <p className="text-sm leading-[1.75] text-muted-foreground mb-4">
+              Each year we host Fireside — an outdoor, off-record gathering for senior
+              operators serious about AI and commerce. Strictly invitation only.
+            </p>
+            <button
+              onClick={() => setFireside(true)}
+              className="text-xs uppercase tracking-[0.18em] text-primary border-b border-gold pb-1 hover:text-gold transition-colors"
+            >
+              Request an invitation →
+            </button>
+          </div>
         </div>
       </div>
+
+      <FiresideInvite open={fireside} onClose={() => setFireside(false)} />
     </section>
   );
 };
