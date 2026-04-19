@@ -4,6 +4,7 @@ import logo from "@/assets/standfast-icon.png";
 const links = [
   { href: "#about", label: "About" },
   { href: "#services", label: "Services" },
+  { href: "#team", label: "Team" },
   { href: "#work", label: "Work" },
   { href: "#insights", label: "Insights" },
 ];
