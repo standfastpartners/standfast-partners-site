@@ -72,7 +72,7 @@ export const Services = () => {
                 <div>
                   <div className="flex flex-wrap items-baseline gap-3 mb-2">
                     <h3
-                      className={`font-display text-3xl md:text-5xl leading-tight transition-colors ${
+                      className={`font-display text-2xl md:text-5xl leading-tight transition-colors break-words ${
                         isOpen ? "text-gold" : "text-primary-foreground group-hover:text-gold/80"
                       }`}
                     >
