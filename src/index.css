@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { font-family: 'DM Sans', system-ui, sans-serif; }
+}
+
+@layer utilities {
+  .font-display { font-family: 'Bebas Neue', sans-serif; letter-spacing: 0.04em; }
+  .font-serif-italic { font-family: 'Fraunces', serif; font-style: italic; font-weight: 300; }
+}
+
+@keyframes marquee { from { transform: translateX(0);} to { transform: translateX(-50%);} }
+.animate-marquee { animation: marquee 28s linear infinite; }
+
+@keyframes fadeUp { from { opacity: 0; transform: translateY(24px);} to { opacity: 1; transform: translateY(0);} }
+.animate-fade-up { opacity: 0; animation: fadeUp 0.9s forwards; }
+
+.reveal { opacity: 0; transform: translateY(32px); transition: opacity 0.7s ease, transform 0.7s ease; }
+.reveal.visible { opacity: 1; transform: translateY(0); }
+
 /* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
 All colors MUST be HSL.
 */
