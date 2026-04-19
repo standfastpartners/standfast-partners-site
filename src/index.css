@@ -57,18 +57,18 @@ All colors MUST be HSL.
     --muted-foreground: 220 14% 38%;
 
     /* Brighter, lighter warm gold */
-    --accent: 42 78% 58%;
+    --accent: 44 92% 64%;
     --accent-foreground: 224 52% 21%;
-    --gold: 42 78% 58%;
+    --gold: 44 92% 64%;
     --gold-foreground: 224 52% 21%;
-    --gold-soft: 42 70% 88%;
+    --gold-soft: 44 85% 90%;
 
     --destructive: 0 70% 45%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 220 15% 88%;
     --input: 220 15% 88%;
-    --ring: 42 78% 58%;
+    --ring: 44 92% 64%;
 
     --radius: 0.5rem;
 
