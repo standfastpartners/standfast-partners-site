@@ -70,7 +70,7 @@ export const About = () => {
               </span>
             </div>
           </div>
-          <p className="font-serif-italic text-xl md:text-2xl text-primary leading-[1.55] mt-8 max-w-md border-l-2 border-gold pl-6">
+          <p className="font-accent text-lg md:text-xl text-primary leading-[1.55] mt-8 max-w-md border-l-2 border-gold pl-6">
             "We believe the businesses that shape the next era of commerce will not be the
             biggest, or the oldest, or the best-resourced. They will be the ones that moved
             with clarity and conviction when it was still hard to do."

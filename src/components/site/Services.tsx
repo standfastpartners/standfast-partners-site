@@ -78,7 +78,7 @@ export const Services = () => {
                     >
                       {s.name}
                     </h3>
-                    <span className="font-serif-italic text-primary-foreground/50 text-base md:text-lg">
+                    <span className="font-accent text-primary-foreground/55 text-sm md:text-base">
                       {s.lead}
                     </span>
                   </div>
@@ -116,7 +116,7 @@ export const Services = () => {
           })}
         </div>
 
-        <p className="text-[15px] text-primary-foreground/60 max-w-2xl mt-10 italic font-serif-italic">
+        <p className="font-accent text-[15px] text-primary-foreground/70 max-w-2xl mt-10">
           What every stage shares: senior people, genuine accountability, and a partner
           invested in the outcome — not the invoice.
         </p>

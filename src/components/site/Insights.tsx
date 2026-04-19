@@ -60,8 +60,8 @@ export const Insights = () => {
                 </span>
               </div>
               <h3
-                className={`font-serif-italic text-primary-foreground leading-[1.35] mb-4 ${
-                  a.featured ? "text-2xl md:text-3xl" : "text-xl"
+                className={`font-display text-primary-foreground leading-[1.15] mb-4 ${
+                  a.featured ? "text-2xl md:text-3xl" : "text-lg md:text-xl"
                 }`}
               >
                 {a.title}

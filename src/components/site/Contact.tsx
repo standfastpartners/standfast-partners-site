@@ -67,7 +67,7 @@ export const Contact = () => {
         <div>
           {sent ? (
             <div className="bg-gold/10 border border-gold/25 p-10 text-center">
-              <p className="font-serif-italic text-primary-foreground/80 text-lg leading-relaxed">
+              <p className="font-accent text-primary-foreground/85 text-base leading-relaxed">
                 Thank you. We've received your message and will be in touch within one
                 business day.
               </p>

@@ -20,14 +20,14 @@ export const Hero = () => {
           AI &amp; Digital Transformation Solutions
         </p>
         <h1
-          className="font-display text-[clamp(3rem,8vw,7rem)] leading-[1.02] text-primary-foreground animate-fade-up max-w-[16ch]"
+          className="font-display text-[clamp(2.5rem,8vw,7rem)] leading-[1.02] text-primary-foreground animate-fade-up max-w-[16ch]"
           style={{ animationDelay: "0.5s" }}
         >
           Strategy is nothing without someone{" "}
-          <span className="text-gold italic font-serif-italic">to carry it.</span>
+          <span className="text-gold font-serif-italic">to carry it.</span>
         </h1>
         <p
-          className="font-serif-italic text-lg md:text-2xl leading-[1.55] text-primary-foreground/75 max-w-2xl mt-10 animate-fade-up"
+          className="font-accent text-base md:text-xl leading-[1.55] text-primary-foreground/80 max-w-2xl mt-8 animate-fade-up"
           style={{ animationDelay: "0.7s" }}
         >
           The solutions partner for leaders serious about AI and digital transformation —
