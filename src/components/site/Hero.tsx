@@ -2,7 +2,7 @@ export const Hero = () => {
   return (
     <section
       id="home"
-      className="relative bg-primary min-h-screen flex flex-col justify-end pb-24 overflow-hidden"
+      className="relative bg-primary min-h-screen flex flex-col justify-end pt-32 pb-20 md:pb-24 overflow-hidden"
     >
       <div
         className="absolute inset-0 pointer-events-none"
@@ -12,34 +12,34 @@ export const Hero = () => {
         }}
       />
 
-      <div className="relative z-10 px-6 md:px-12 max-w-[1400px] mx-auto w-full">
+      <div className="relative z-10 px-6 sm:px-8 md:px-12 max-w-[1400px] mx-auto w-full">
         <p
-          className="text-[10px] uppercase tracking-[0.24em] text-gold mb-8 animate-fade-up"
+          className="text-[10px] uppercase tracking-[0.24em] text-gold mb-6 md:mb-8 animate-fade-up"
           style={{ animationDelay: "0.3s" }}
         >
           AI &amp; Digital Transformation Solutions
         </p>
         <h1
-          className="font-display text-[clamp(2.5rem,8vw,7rem)] leading-[1.02] text-primary-foreground animate-fade-up max-w-[16ch]"
+          className="font-display text-[clamp(2.25rem,7.5vw,7rem)] leading-[1.05] md:leading-[1.02] text-primary-foreground animate-fade-up max-w-[16ch]"
           style={{ animationDelay: "0.5s" }}
         >
           Strategy is nothing without someone{" "}
           <span className="text-gold font-serif-italic">to carry it.</span>
         </h1>
         <p
-          className="font-accent text-base md:text-xl leading-[1.55] text-primary-foreground/80 max-w-2xl mt-8 animate-fade-up"
+          className="font-accent text-[15px] sm:text-base md:text-xl leading-[1.6] md:leading-[1.55] text-primary-foreground/80 max-w-2xl mt-6 md:mt-10 animate-fade-up"
           style={{ animationDelay: "0.7s" }}
         >
           The solutions partner for leaders serious about AI and digital transformation —
           building, deploying, and owning the outcomes that move the business forward.
         </p>
         <div
-          className="flex flex-wrap items-center gap-8 mt-12 animate-fade-up"
+          className="flex flex-wrap items-center gap-5 sm:gap-8 mt-10 md:mt-12 animate-fade-up"
           style={{ animationDelay: "0.9s" }}
         >
           <a
             href="#contact"
-            className="inline-block text-xs uppercase tracking-[0.18em] font-medium bg-gold text-gold-foreground px-10 py-4 hover:bg-gold/90 transition-colors"
+            className="inline-block text-xs uppercase tracking-[0.18em] font-medium bg-gold text-gold-foreground px-8 sm:px-10 py-4 hover:bg-gold/90 transition-colors"
           >
             Start the conversation
           </a>
@@ -52,7 +52,7 @@ export const Hero = () => {
         </div>
 
         <div
-          className="hidden md:flex gap-14 mt-20 animate-fade-up"
+          className="hidden md:flex gap-14 mt-24 animate-fade-up"
           style={{ animationDelay: "1.1s" }}
         >
           {[
