@@ -17,7 +17,7 @@ export const Hero = () => {
           className="text-[10px] uppercase tracking-[0.24em] text-gold mb-8 animate-fade-up"
           style={{ animationDelay: "0.3s" }}
         >
-          AI &amp; Digital Transformation Partners
+          AI &amp; Digital Transformation Solutions
         </p>
         <h1
           className="font-display text-[clamp(3rem,8vw,7rem)] leading-[1.02] text-primary-foreground animate-fade-up max-w-[16ch]"
@@ -30,8 +30,8 @@ export const Hero = () => {
           className="font-serif-italic text-lg md:text-2xl leading-[1.55] text-primary-foreground/75 max-w-2xl mt-10 animate-fade-up"
           style={{ animationDelay: "0.7s" }}
         >
-          The external partner for leaders who are serious about AI and digital transformation
-          — and need someone willing to take real ownership of the outcomes.
+          The solutions partner for leaders serious about AI and digital transformation —
+          building, deploying, and owning the outcomes that move the business forward.
         </p>
         <div
           className="flex flex-wrap items-center gap-8 mt-12 animate-fade-up"
@@ -57,7 +57,7 @@ export const Hero = () => {
         >
           {[
             { n: "24", l: "Months to act" },
-            { n: "4", l: "Core practices" },
+            { n: "4", l: "Solution areas" },
             { n: "1", l: "Agenda: yours" },
           ].map((s) => (
             <div key={s.l}>
