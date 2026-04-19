@@ -42,7 +42,7 @@ export const Services = () => {
             <span className="text-[10px] uppercase tracking-[0.22em] text-gold mb-4 block">
               What we do
             </span>
-            <h2 className="font-display text-5xl md:text-6xl text-primary-foreground leading-[1.05]">
+            <h2 className="font-display text-[2.25rem] sm:text-[2.25rem] sm:text-5xl md:text-6xl text-primary-foreground leading-[1.05]">
               Four ways <em className="font-serif-italic text-gold">we deliver.</em>
             </h2>
           </div>
@@ -72,13 +72,13 @@ export const Services = () => {
                 <div>
                   <div className="flex flex-wrap items-baseline gap-3 mb-2">
                     <h3
-                      className={`font-display text-3xl md:text-5xl leading-tight transition-colors ${
+                      className={`font-display text-2xl md:text-5xl leading-tight transition-colors break-words ${
                         isOpen ? "text-gold" : "text-primary-foreground group-hover:text-gold/80"
                       }`}
                     >
                       {s.name}
                     </h3>
-                    <span className="font-serif-italic text-primary-foreground/50 text-base md:text-lg">
+                    <span className="font-accent text-primary-foreground/55 text-sm md:text-base">
                       {s.lead}
                     </span>
                   </div>
@@ -116,7 +116,7 @@ export const Services = () => {
           })}
         </div>
 
-        <p className="text-[15px] text-primary-foreground/60 max-w-2xl mt-10 italic font-serif-italic">
+        <p className="font-accent text-[15px] text-primary-foreground/70 max-w-2xl mt-10">
           What every stage shares: senior people, genuine accountability, and a partner
           invested in the outcome — not the invoice.
         </p>

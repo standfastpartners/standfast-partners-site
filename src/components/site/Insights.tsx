@@ -31,7 +31,7 @@ export const Insights = () => {
             <span className="text-[10px] uppercase tracking-[0.22em] text-gold mb-4 block">
               Thinking
             </span>
-            <h2 className="font-display text-5xl md:text-6xl text-primary-foreground leading-[1.05]">
+            <h2 className="font-display text-[2.25rem] sm:text-[2.25rem] sm:text-5xl md:text-6xl text-primary-foreground leading-[1.05]">
               What we're <em className="font-serif-italic text-gold">watching.</em>
             </h2>
           </div>
@@ -60,8 +60,8 @@ export const Insights = () => {
                 </span>
               </div>
               <h3
-                className={`font-serif-italic text-primary-foreground leading-[1.35] mb-4 ${
-                  a.featured ? "text-2xl md:text-3xl" : "text-xl"
+                className={`font-display text-primary-foreground leading-[1.15] mb-4 ${
+                  a.featured ? "text-2xl md:text-3xl" : "text-lg md:text-xl"
                 }`}
               >
                 {a.title}

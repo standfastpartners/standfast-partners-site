@@ -33,7 +33,7 @@ export const Differentiators = () => {
           <span className="text-[10px] uppercase tracking-[0.22em] text-gold mb-4 block">
             Why Standfast
           </span>
-          <h2 className="font-display text-5xl md:text-6xl text-primary leading-[1.05]">
+          <h2 className="font-display text-[2.25rem] sm:text-5xl md:text-6xl text-primary leading-[1.05]">
             What sets us <em className="font-serif-italic text-gold">apart.</em>
           </h2>
         </div>
